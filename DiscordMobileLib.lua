@@ -45,7 +45,7 @@ end)
 
 Tab(c1)
 
-Slider(c1, "Slider", 100, 16, 16, function(v)
+Slider(c1, "Slider", 16, 100, 16, function(v)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (v)
 end)
 
