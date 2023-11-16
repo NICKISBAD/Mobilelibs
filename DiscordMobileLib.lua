@@ -38,14 +38,14 @@ Tab(c1)
 Toggle(c1, "Toggle", false, function(v)
 	game.StarterGui:SetCore("SendNotification",{
 		Title = "Value Change",
-		Text = "Value changed to " .. v,
+		Text = v,
 		Duration = 5
 	})
 end)
 
 Tab(c1)
 
-Slider(c1, "Slider", 100, 100, 100, function(v)
+Slider(c1, "Slider", 12, 12, 12, function(v)
 	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (v)
 end)
 
