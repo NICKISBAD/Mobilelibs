@@ -36,7 +36,7 @@ end)
 Tab(c1)
 
 Toggle(c1, "Toggle", false, function(v)
-	game.StarterGui:SetCore("SendNotification,{
+	game.StarterGui:SetCore("SendNotification",{
 		Title = "Value Change",
 		Text = "Value changed to " .. v,
 		Duration = 5
