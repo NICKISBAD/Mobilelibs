@@ -1,6 +1,6 @@
 local a = loadstring(game:HttpGet("https://raw.githubusercontent.com/NICKISBAD/ESPTagLib/main/ESPLib.lua"))(()
 
-local b = ESPLib:CreateESPTag({
+local b = a:CreateESPTag({
     		Text = "ExampleName",
     		Part = game.Workspace.Items.Arrow.Handle, -- Replace 'Part' with the actual reference to your part
     		TextSize = 7,
